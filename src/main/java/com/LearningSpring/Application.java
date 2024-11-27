@@ -14,7 +14,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		var context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
+	//	var context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
 		/*var vehicleServices = context.getBean(VehicleService.class);
 		System.out.println(vehicleServices.getClass());
 		Song song = new Song();
@@ -27,3 +27,6 @@ public class Application {
 	}
 
 }
+
+
+
